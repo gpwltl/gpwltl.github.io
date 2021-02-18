@@ -338,7 +338,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #f1e7d0;
 }
 
 #about .div-img-bg .about-img img {
@@ -352,8 +352,8 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 20px;
   text-align: left;
 }
 
@@ -361,6 +361,10 @@ nav ul li a {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+}
+
+.skill{
+  padding-top: 23px;
 }
 
 /*--------------------------------------------------------------
@@ -604,6 +608,7 @@ nav ul li a {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Journal
 --------------------------------------------------------------*/
@@ -779,12 +784,17 @@ nav ul li a {
 .main-content .container-main .block-main {
   margin-bottom: 30px;
   overflow: hidden;
+  background: white;
+  display: inline-flex;
+  
+
 }
 
 .container-main .block-main .content-main {
   background: #fff none repeat scroll 0 0;
   display: inline-block;
   width: 100%;
+  margin-top: 20px;s
 }
 
 .journal-txt h4 a {
@@ -833,6 +843,7 @@ nav ul li a {
   margin-top: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #f2f2f2;
+  
 }
 
 .entry-comments-avatar {
@@ -883,6 +894,13 @@ blockquote {
   margin: 30px 0;
   border: none;
   border-left: 4px solid #b8a07e;
+}
+
+
+.profile_photo{
+  width: 300px;
+  height: 400px;
+  margin-top: 25px
 }
 
 /*--------------------------------------------------------------
